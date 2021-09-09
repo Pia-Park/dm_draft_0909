@@ -1,0 +1,63 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+}
+
+.logo_img{
+    width: auto;
+    height: 8vh;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.videobox{
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+
+}
+
+video{
+    width: 100%;
+    margin-top: -10rem;
+
+}
+
+.title{
+    position: absolute;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+
