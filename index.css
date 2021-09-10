@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 
 
@@ -14,19 +15,23 @@ body{
 .logo_img{
     width: auto;
     height: 8vh;
-    padding: 1rem;
     margin-left: 1rem;
 }
 
 ul{
     display: flex;
     flex-direction: row;
+    margin-right: 2rem;
 }
 
 li{
     list-style: none;
     padding: 1rem;
     font-size: 0.9rem;
+}
+
+li:hover{
+    color: rgb(103, 172, 0);
 }
 
 .main{
